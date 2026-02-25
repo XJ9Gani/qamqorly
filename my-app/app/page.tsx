@@ -3,7 +3,7 @@ import HeroInfo from "@/widgets/home/hero-info"
 import PracticeInfo from "@/widgets/home/practice-info"
 import WhoWeAre from "@/widgets/home/who-we-are"
 
-const Home = () => {
+export default function Page(){
   return (
     <section>
       <HeroInfo />
@@ -13,5 +13,3 @@ const Home = () => {
     </section>
   )
 }
-
-export default Home
